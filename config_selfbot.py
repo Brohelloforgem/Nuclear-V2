@@ -7,7 +7,7 @@ from utils import rpc
 
 # en: SelfBot name
 # fr: Nom du SelfBot
-selfbot_name = "Nuclear" # Tip: Don't use the "Selfbot" word into your selfbot name, most of servers blacklist this word with AutoMod
+selfbot_name = "Gem" # Tip: Don't use the "Selfbot" word into your selfbot name, most of servers blacklist this word with AutoMod
 
 # en: Account Token.
 # fr: Token du compte.
@@ -15,7 +15,7 @@ token = ""
 
 # en: Commands prefix.
 # fr: Prefix des commandes.
-prefix = "&"
+prefix = "."
 
 # fr: Langue.
 # en: Language.
@@ -74,8 +74,8 @@ good_person_list = [
 #######################
 # en: Ban reason (for &banall).
 # fr: Raison du banissement (pour &banall).
-ban_reason = "ezzed by Nuclear lol."
-kick_reason = "ezzed by Nuclear lol."
+ban_reason = "ezzed by Gem lol."
+kick_reason = "ezzed by Gem lol."
 
 #######################
 # fr: RPC par défaut  #
@@ -83,15 +83,15 @@ kick_reason = "ezzed by Nuclear lol."
 #######################
 
 activity_name = "☄"
-activity_details = " "
-activity_state = " "
+activity_details = "Gem op"
+activity_state = "Gem on Top"
 application_id = 1193291951290712154
 
 streaming_url = "https://twitch.tv/twitch"
-activity_button_one = "Nuclear !"
-activity_button_one_answer = "https://github.com/Sitois/Nuclear" # doesn't work for the moment
-activity_button_two = "Star it!"
-activity_button_two_answer = "https://github.com/Sitois/Nuclear" # doesn't work for the moment
+activity_button_one = "Gem !"
+activity_button_one_answer = "https://guns.lol/gemwizz" # doesn't work for the moment
+activity_button_two = "Eagle Domain!"
+activity_button_two_answer = "https://dsc.gg/eagledomain" # doesn't work for the moment
 
 # see &tuto
 icon = rpc.get_raw_json("Sitois", "Nuclear-V2", "assets.json")
