@@ -17,6 +17,7 @@ try:
     from commands import *
     from colorama import Fore, Style, Back
     import requests
+    from keep_alive import keep_alive
     #import twocaptcha
     print("50%, Loading discord.py-self...")
     import discord
