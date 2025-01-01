@@ -1,3 +1,4 @@
+import os
 from utils import rpc
 #######################
 #  selfbot            #
@@ -11,7 +12,7 @@ selfbot_name = "Gem" # Tip: Don't use the "Selfbot" word into your selfbot name,
 
 # en: Account Token.
 # fr: Token du compte.
-token = ""
+token = usertoken = os.getenv("TOKEN")
 
 # en: Commands prefix.
 # fr: Prefix des commandes.
