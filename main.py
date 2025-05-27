@@ -384,6 +384,3 @@ except Exception as e:
     else:
         # Else, print the Exception.
         log.critical(f"{lang.text('weird_error')} {e}")
-        if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 10000))
-    app.run(host='0.0.0.0', port=port)
