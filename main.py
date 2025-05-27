@@ -384,3 +384,7 @@ except Exception as e:
     else:
         # Else, print the Exception.
         log.critical(f"{lang.text('weird_error')} {e}")
+        app = Flask(__name__)
+
+PORT = int(os.environ.get("PORT", 5000))  # fallback for local dev
+app.run(host='0.0.0.0', port=PORT)
