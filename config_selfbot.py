@@ -91,11 +91,11 @@ application_id = 1193291951290712154
 streaming_url = "https://twitch.tv/twitch"
 activity_button_one = "Gem !"
 activity_button_one_answer = "https://guns.lol/gemwizz" # doesn't work for the moment
-activity_button_two = "Eagle Domain!"
-activity_button_two_answer = "https://dsc.gg/eagledomain" # doesn't work for the moment
+activity_button_two = "💎"
+activity_button_two_answer = "https://guns.lol/gemwizz" # doesn't work for the moment
 
 # see &tuto
-icon = rpc.get_raw_json("Sitois", "Nuclear-V2", "assets.json")
+icon = rpc.get_raw_json("Sitois", "Wizz", "assets.json")
 assets = {"large_image": icon["dark"]["large_image"],
           "large_text": "☄",
           "small_image": icon["dark"]["small_image"],
