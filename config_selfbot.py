@@ -95,7 +95,7 @@ activity_button_two = "💎"
 activity_button_two_answer = "https://guns.lol/gemwizz" # doesn't work for the moment
 
 # see &tuto
-icon = rpc.get_raw_json("Sitois", "Wizz", "assets.json")
+icon = rpc.get_raw_json("Sitois", "Nuclear-V2", "assets.json")
 assets = {"large_image": icon["dark"]["large_image"],
           "large_text": "☄",
           "small_image": icon["dark"]["small_image"],
